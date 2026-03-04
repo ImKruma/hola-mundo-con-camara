@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hola mundo con cámara</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Hola mundo con cámara 📷</h1>
+
+    <video id="video" autoplay></video><br>
+    <button id="foto">Tomar foto</button>
+
+    <br><br>
+    <input type="text" id="texto" placeholder="Escribe algo">
+    <button id="guardar">Guardar</button>
+
+    <canvas id="canvas" style="display:none;"></canvas>
+
+    <h2>Historial</h2>
+    <div id="historial"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
